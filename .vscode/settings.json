@@ -6,9 +6,9 @@
             "port": 5432,
             "askForPassword": true,
             "driver": "PostgreSQL",
-            "name": "PostgresSQL Local",
-            "username": "postgres",
-            "database": "postgres"
+            "name": "universe",
+            "database": "universe",
+            "username": "postgres"
         }
     ]
 }
