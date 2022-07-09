@@ -7,6 +7,3 @@ create table galaxy();
 create table star();
 create table planet();
 create table moon();
-
-
-
