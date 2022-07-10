@@ -17,10 +17,20 @@
     │   ├── radius_light_years (type = INT)
     │   ├── age (type = NUMERIC)
     │   └── type (type = TEXT)
-    └── moon
-        ├── moon_id (type = INT)
-        ├── name (type = VARCHAR(30))
+    ├── moon
+    │   ├── moon_id (type = INT)
+    │   ├── name (type = VARCHAR(30))
+    │   ├── planet_id (type = INT)
+    │   ├── galaxy_id (type = INT)
+    │   └── star_id (type = INT)
+    └── planet
         ├── planet_id (type = INT)
+        ├── name (type = VARCHAR(30))
+        ├── natural_satellites (type = INT)
+        ├── radius (type = NUMERIC)
         ├── galaxy_id (type = INT)
-        └── star_id (type = INT)
+        ├── star_id (type = INT)
+        ├── life (type = BOOLEAN)
+        ├── planet_type (type = VARCHAR(30))
+        └── water (type = BOOLEAN)
 ```
