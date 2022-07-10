@@ -151,7 +151,7 @@ ALTER TABLE public.moon_moon_id_seq OWNER TO freecodecamp;
 
 ALTER SEQUENCE public.moon_moon_id_seq OWNED BY public.moon.moon_id;
 
-
+-- ?: hasta aquí me quedé
 --
 -- Name: planet; Type: TABLE; Schema: public; Owner: freecodecamp
 --
