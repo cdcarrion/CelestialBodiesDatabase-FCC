@@ -7,7 +7,7 @@
 ```
 .
 └── Universe
-    ├── galaxi
+    ├── galaxy
     │   ├── var1                ----> foreign key
     │   └── var2                ----> 
     ├── Another one (table)
